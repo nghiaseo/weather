@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>This is my app</title>
+    <base href="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="control">
+            <div>
+                <label for="apikey">API Key</label>
+                <input type="text" id="apikey" name="apikey">
+            </div>
+            <div>
+                <label for="location">Location</label>
+                <input type="text" id="location" name="location">
+            </div>
+            <div>
+                <button id="search">Search</button>
+                <button id="remove">Remove</button>
+            </div>
+        </div>
+        <div id="content">
+            <div>Thời tiết :<span id="weather"></span></div>
+            <div>Nhiệt độ :<span id="temp"></span></div>
+            <div>Độ ẩm :<span id="humidity"></span></div>
+            <div>Tầm nhìn :<span id="vision"></span></div>
+            <div>Tốc độ gió :<span id="wind"></span></div>
+        </div>
+        </div>        
+    <script type="module" src="./scripts/main.js"></script>
+    
+    
+</body>
+
+</html>
